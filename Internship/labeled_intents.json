@@ -1,0 +1,7 @@
+[
+    {
+        "command": "lights on",
+        "device": "lights ",
+        "action": "on"
+    }
+]
