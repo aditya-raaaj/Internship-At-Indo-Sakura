@@ -1,0 +1,9 @@
+| Component               | Description                                                                 |
+| ----------------------- | --------------------------------------------------------------------------- |
+| `speech_recognition`    | Listens to audio input and transcribes it using Google's Speech API.        |
+| `pyttsx3`               | Text-to-speech engine that speaks responses.                                |
+| `streamlit`             | Frontend interface to visualize responses and transcriptions.               |
+| `txt_to_intent()`       | Parses text into intent: `device`, `action`, and `location`.                |
+| `confirm_and_execute()` | Confirms the intent with the user before "executing" the action.            |
+| Wake Words              | Recognizes preset wake words before activation (`Lucy`, `Beauty`, etc.).    |
+| Exit Triggers           | Words like "bye", "thank you", or "stop" will gracefully terminate session. |
